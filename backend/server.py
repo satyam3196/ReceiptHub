@@ -10,8 +10,8 @@ from datetime import datetime
 from llama_parse import LlamaParse
 from llama_index.core import SimpleDirectoryReader
 import pandas as pd
-from PIL import Image  # Import Pillow for image handling
-import shutil  # Import shutil for copying files
+from PIL import Image  # For image handling
+import shutil  # For copying files
 
 # Load environment variables
 load_dotenv()
@@ -68,7 +68,7 @@ def upload_bill():
             image.convert('RGB').save(temp_file_path, 'PDF')
 
 
-                # Directory to store scanned bills
+        # Directory to store scanned bills
         scanned_bills_dir = 'scanned_bills'
         os.makedirs(scanned_bills_dir, exist_ok=True)  # Ensure the directory exists
 

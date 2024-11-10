@@ -3,10 +3,10 @@ import pandas as pd
 import requests
 from datetime import datetime
 
-@st.cache_data(ttl=10)  # Set TTL (time-to-live) to 10 seconds 
+@st.cache_data(ttl=10)  # Setting TTL (time-to-live) to 10 seconds 
 def load_bill_data():
     try:
-        data = pd.read_excel("../backend/bills_data.xlsx")  # Replace with the actual path
+        data = pd.read_excel("../backend/bills_data.xlsx")  
         # Convert relevant columns to datetime
         data['Scanned_on'] = pd.to_datetime(data['Scanned_on'], errors='coerce').dt.date
         
