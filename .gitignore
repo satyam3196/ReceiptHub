@@ -1,0 +1,79 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+frontend/myenv/
+backend/myenv/
+.env
+
+# Streamlit cache and temporary files
+.streamlit/
+.streamlit/secrets.toml
+
+# Environment and config files
+.env
+*.env
+.env.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+# Usually these files are generated with PyInstaller
+*.spec
+
+# Django/Flask local settings (if applicable)
+settings_local.py
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+nosetests.xml
+coverage/
+
+# Byte-compiled / optimized / DLL files
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+desktop.ini
+
+# Other
+*.bak
+*.swp
+*~
