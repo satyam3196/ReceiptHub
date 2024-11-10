@@ -143,14 +143,19 @@ cd ReceiptHub
 
 The `resources` section contains various files and folders to demonstrate and test the functionality of ReceiptHub:
 
-- **Upload Bills**: The `upload_bills` folder includes four sample bills in PDF format. These bills can be uploaded to the application to test the bill processing, categorization, and analysis features.
+- **Upload Bills**: The `upload_bills` folder includes four sample bills in PDF format. These bills can be uploaded to the application to test the bill processing, categorization, and analysis features. For the purpose of development and testing, I have processed over 200 receipts from [Kaggle datasets](https://www.kaggle.com/datasets) with a high level of accuracy. Four samples have been provided here for the user's convenience to test the robustness of the application.
 
 - **Scanned Bills (Sample)**: The `scanned_bills(sample)` folder contains PDF versions of the bills after they have been analyzed by the application. These are saved receipts with categorized data for reference and auditing purposes.
 
 - **Bills Data (Sample)**: The `bills_data(Sample).xlsx` file is an Excel sheet generated after analyzing the uploaded bills. It contains detailed records of each processed receipt, including fields such as `company_name`, `address`, `subtotal`, `total_amount`, `category`, and `scanned_on` date, allowing users to track expenses effectively.
 
-- **Screenshots**:
-  - **Dashboard Screenshot**: `Dashboard_Screenshot.png` – displays the dashboard overview with scanned bills, total amounts, and detailed expense information.
-  - **Upload Bill Screenshot**: `Upload_Bill.png` – shows the interface for uploading new receipts and selecting expense categories.
+## Screenshots
 
+- **Dashboard Screenshot**:  
+  ![Dashboard Screenshot](./Resources/Dashboard_Screenshot.png)  
+  Displays the dashboard overview with scanned bills, total amounts, and detailed expense information.
+
+- **Upload Bill Screenshot**:  
+  ![Upload Bill Screenshot](./Resources/Upload_Bill.png)  
+  Shows the interface for uploading new receipts and selecting expense categories.
 ---
