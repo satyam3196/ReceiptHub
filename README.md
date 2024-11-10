@@ -143,7 +143,7 @@ cd ReceiptHub
 
 The `resources` section contains various files and folders to demonstrate and test the functionality of ReceiptHub:
 
-- **Upload Bills**: The `upload_bills` folder includes four sample bills in PDF format. These bills can be uploaded to the application to test the bill processing, categorization, and analysis features.
+- **Upload Bills**: The `upload_bills` folder includes four sample bills in PDF format. These bills can be uploaded to the application to test the bill processing, categorization, and analysis features. For the purpose of development and testing, I have processed over 200 receipts from [Kaggle datasets](https://www.kaggle.com/datasets) with a high level of accuracy. Four samples have been provided here for the user's convenience to test the robustness of the application.
 
 - **Scanned Bills (Sample)**: The `scanned_bills(sample)` folder contains PDF versions of the bills after they have been analyzed by the application. These are saved receipts with categorized data for reference and auditing purposes.
 
