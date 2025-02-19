@@ -4,6 +4,11 @@
 
 This repository contains **ReceiptHub**, my submission for the [NVIDIA and LlamaIndex Developer Contest](https://developer.nvidia.com/llamaindex-developer-contest). ReceiptHub is an expense tracking application designed to streamline the receipt management process for small business owners, solo entrepreneurs, and small teams. The application enables users to upload receipts, categorize expenses, and visualize spending insights on a customizable dashboard.
 
+
+### Update
+
+Honored to have my project, ReceiptHub, ranked among the top 15 in the NVIDIA and LlamaIndex Developer Contest!
+
 ---
 
 ## Table of Contents
